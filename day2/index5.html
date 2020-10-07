@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>CSS-DAY1-TASK5</title>
+        <style>
+            h1{margin: 40;
+            font-size: xxx-large;}
+            .box1{height: 300px;width: 300px;
+            border: 10px solid lightcoral;}
+            .box2{height: 280px; width: 280px;
+                border: 10px solid black;}
+            .box3{height: 260px;width: 260px;
+            border: 10px solid #bada55;}
+            .box4{height: 260px;width: 260px;
+                background: aqua;}
+            .lightcoral,.black,.bada,.aqua{ height: 20;
+            width: 20;
+            border-radius: 50%;}
+            .lightcoral{background: lightcoral;}
+            .black{background: black;}
+            .bada{background: #bada55;}
+            .aqua{background: aqua;}
+            .ft{display: inline-block;
+            margin: 50;
+            position: relative;}
+            .txt{position: absolute;
+            top:3;
+            left:30px;
+            font-weight: bold;}
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>Box Model</h1>
+        <div class="box1">
+            <div class="box2">
+                <div class="box3">
+                    <div class="box4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ft">
+        <div class="lightcoral"></div>
+        <div class="txt">Lightcoral</div>
+        </div >
+        <div class="ft">
+        <div class="black"></div>
+        <div class="txt">Black</div>
+        </div>
+        <div class="ft">
+        <div class="bada"></div>
+        <div class="txt">#bada55</div>
+        </div>
+        <div class="ft">
+        <div class="aqua"></div>
+        <div class="txt">Aqua</div>
+        </div>
+    </center>
+    </body>
+</html>

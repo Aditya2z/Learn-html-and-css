@@ -1,0 +1,278 @@
+<html>
+    <head>
+        <title>CSS-DAY4-TASK1</title>
+        <style>
+            .page{margin: 50px;}
+            .image{width:99px;height: 99px;}
+            .left{float: left;}
+            hr{margin: 100 15;}
+            .flm{float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;}
+            .frm{float: right;
+            margin-left: 10px;}
+            .outerborder{border: 3px solid red;}
+            .innerborder{border:10px solid orange}
+            .insidebgbox{background: rgb(248, 162, 162);}
+            .inbox2{height: 0;}
+            .innerbox{height: 99;width: 99;background: rgba(110, 124, 143,.2);}
+            .marginless .innerbox{margin-right: 0;}
+            .fourrows{height: 380px;}
+            .tworows{height: 190px;}
+            .threerows{height: 285px;}
+            .row1,.row2,.row3,.row4{height: 100px;margin-bottom: 10px;}
+            .inside3{height: 210;}
+            .clr{clear: right;}
+        </style>
+    </head>
+    <body>
+    <div class="page">
+        <h1>No Floats</h1>
+        <div>
+            <img src="./assets/altcampus-logo.jpg" class="image">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel urna maximus, eleifend lacus at, hendrerit turpis. Nullam lobortis neque ipsum, sit amet sollicitudin ex vulputate id. Praesent a posuere enim, et tempor leo. Praesent ornare mi nec lectus lobortis, sed vestibulum libero eleifend. Phasellus a tincidunt tortor. In ut imperdiet massa. Nam ut accumsan leo, at egestas ex. Suspendisse ac posuere quam. Morbi nunc ligula, bibendum non elementum non, mollis vitae elit. Aliquam sed est non est posuere sollicitudin. Donec ut nibh justo.
+        </div>
+        <hr>
+        <h1>Float:Left;</h1>
+        <div>
+            <div class="flm"><img src="./assets/altcampus-logo.jpg" class="image"></div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel urna maximus, eleifend lacus at, hendrerit turpis. Nullam lobortis neque ipsum, sit amet sollicitudin ex vulputate id. Praesent a posuere enim, et tempor leo. Praesent ornare mi nec lectus lobortis, sed vestibulum libero eleifend. Phasellus a tincidunt tortor. In ut imperdiet massa. Nam ut accumsan leo, at egestas ex. Suspendisse ac posuere quam. Morbi nunc ligula, bibendum non elementum non, mollis vitae elit. Aliquam sed est non est posuere sollicitudin. Donec ut nibh justo.
+        </div>
+        <hr>
+        <h1>Float:Right;</h1>
+        <div>
+            <div class="frm"><img src="./assets/altcampus-logo.jpg" class="image"></div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel urna maximus, eleifend lacus at, hendrerit turpis. Nullam lobortis neque ipsum, sit amet sollicitudin ex vulputate id. Praesent a posuere enim, et tempor leo. Praesent ornare mi nec lectus lobortis, sed vestibulum libero eleifend. Phasellus a tincidunt tortor. In ut imperdiet massa. Nam ut accumsan leo, at egestas ex. Suspendisse ac posuere quam. Morbi nunc ligula, bibendum non elementum non, mollis vitae elit. Aliquam sed est non est posuere sollicitudin. Donec ut nibh justo.
+        </div>
+        <hr>
+        <h1>Two Objects,Float:Left;</h1>
+        <div>
+            <div class="flm">
+                <img src="./assets/altcampus-logo.jpg" class="image">
+            </div>
+                <div class="flm">
+                <img src="./assets/css logo.png" class="image">
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel urna maximus, eleifend lacus at, hendrerit turpis. Nullam lobortis neque ipsum, sit amet sollicitudin ex vulputate id. Praesent a posuere enim, et tempor leo. Praesent ornare mi nec lectus lobortis, sed vestibulum libero eleifend. Phasellus a tincidunt tortor. In ut imperdiet massa. Nam ut accumsan leo, at egestas ex. Suspendisse ac posuere quam. Morbi nunc ligula, bibendum non elementum non, mollis vitae elit. Aliquam sed est non est posuere sollicitudin. Donec ut nibh justo.
+        </div>
+        <hr>
+        <h1>Two Objects,Float:Right;</h1>
+        <div>
+            <div class="frm"> <img src="./assets/altcampus-logo.jpg" class="image"></div>
+            <div class="frm"><img src="./assets/css logo.png" class="image"></div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel urna maximus, eleifend lacus at, hendrerit turpis. Nullam lobortis neque ipsum, sit amet sollicitudin ex vulputate id. Praesent a posuere enim, et tempor leo. Praesent ornare mi nec lectus lobortis, sed vestibulum libero eleifend. Phasellus a tincidunt tortor. In ut imperdiet massa. Nam ut accumsan leo, at egestas ex. Suspendisse ac posuere quam. Morbi nunc ligula, bibendum non elementum non, mollis vitae elit. Aliquam sed est non est posuere sollicitudin. Donec ut nibh justo.
+        </div>
+        <hr>
+        <h1>No Floats,No Words</h1>
+        <div class="outbox1 outerborder">
+            <div class="inbox1 innerborder">
+                <div class="insidebgbox">
+                    <img src="./assets/altcampus-logo.jpg" class="image">
+                </div>
+                </div>
+            </div>
+        <hr>
+        <h1>Float:Left;,No Words</h1>
+        <div class="outbox2 outerborder">
+            <div class="inbox2 innerborder">
+                <div class="flm">
+                    <img src="./assets/altcampus-logo.jpg" class="image">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h1>Many floats, Not floating</h1>
+        <div class="fourrows">
+        <div class="outbox2 outerborder">
+            <div class="inbox2 innerborder">
+                <div class="marginless">
+                    <div class="row1">
+
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row2">
+
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row3">
+
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row4">
+
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+            <hr>
+            <h1>Many floats, No words</h1>
+         <div class="tworows">
+            <div class="outbox2 outerborder">
+                <div class="inbox2 innerborder">
+                    <div class="row1">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+             <hr>
+             <h1>Many float, No words+last one clear</h1>
+            <div class="threerows">
+             <div class="outbox2 outerborder">
+                <div class="inbox2 innerborder">
+                    <div class="row1">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row3">
+                        <div class="innerbox"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <hr>
+            <h1>Many floats, No words+invisible non floating clearing object</h1>
+            <div class="outbox3 outerborder">
+                <div class="inbox3 innerborder">
+                    <div class="insidebgbox inside3">
+                    <div class="row1">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox flm"></div>
+                        <div class="innerbox clr"></div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            <p>Hello I am other content</p>
+            <hr>
+            <a href="http://nicolasgallagher.com/micro-clearfix-hack/">http://nicolasgallagher.com/micro-clearfix-hack/</a>
+            <h1>Many floats,No words+ClearFix</h1>
+            <div class="outbox3 outerborder">
+                <div class="inbox3 innerborder">
+                    <div class="insidebgbox inside3">
+                    <div class="row1">
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                    </div>
+                    <div class="row2">
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                        <div class="innerbox flm clr"></div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            <p>Hello I am other content</p>
+            <hr>
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+
+
+/* Custom CSS */
+body{
+    margin: 0;
+    background: rgb(221, 208, 182);
+    }
+
+.white{
+        color: white;
+        }
+
+header{
+        background: orange;
+        padding: 20px;
+        }
+
+footer{
+        background: black;
+        padding: 20px;
+        }
+
+main{
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+a   {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    }
+
+.list   {
+        background: rgb(82, 82, 241);
+        width: 250px;
+        height:350px;
+        padding: 20px;
+        margin: 20px 20px;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 10px 10px 7px black;
+        }
+
+li  {
+    margin: 10px;
+    font-weight: bold;
+    }
+
+p   {
+    color: grey;
+    margin-left: 20px;
+    }
+    
+h1  {
+    font-size: x-large;
+    }

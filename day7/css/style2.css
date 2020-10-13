@@ -1,38 +1,38 @@
 
 
 /* Custom CSS */
-body{
+body {
     margin: 0;
     background: rgb(221, 208, 182);
     }
 
-.white{
+.white {
         color: white;
         }
 
-header{
+header {
         background: orange;
         padding: 20px;
         }
 
-footer{
+footer {
         background: black;
         padding: 20px;
         }
 
-main{
+main {
     margin: 0 auto;
     width: 80%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-a   {
+a    {
     margin-left: 20px;
     text-decoration: none;
     color: white;
     }
 
-.list   {
+.list    {
         background: rgb(82, 82, 241);
         width: 250px;
         height:350px;
@@ -43,7 +43,7 @@ a   {
         box-shadow: 10px 10px 7px black;
         }
 
-li  {
+li   {
     margin: 10px;
     font-weight: bold;
     }
@@ -56,3 +56,6 @@ p   {
 h1  {
     font-size: x-large;
     }
+.three {list-style-type: symbols();
+
+}

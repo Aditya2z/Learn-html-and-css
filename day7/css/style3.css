@@ -1,0 +1,115 @@
+/* Cuctom CSS */
+body {font-family: 'Lemonada', cursive;
+    margin: 0px;
+    background: darkolivegreen;
+}
+header,main,footer {margin: 0 10% 0 10%;
+        width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left:  20px;
+    font-weight: bold;
+}
+header {
+        background-image: url(./assets/Copy\ of\ background.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+}
+
+header,footer,.slide1,.slide2,.slide3{padding: 50px 0px;}
+
+header div,footer div {margin: 0px 36%;
+}
+
+header h1 {margin:100px auto auto 35%;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.slide1{background-color: white;}
+
+
+
+video{height: 300px;
+    width: 300px;
+    outline: none;
+}
+.box{width: 300px;
+    display: inline-block;
+    margin: 25px;
+    text-align: center;
+}
+
+.slide2{background: yellowgreen;}
+
+.box2{margin: 0px auto;
+    width: 80%;        
+}
+
+.slide2 h1{margin:0px auto auto 35%;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.slide2 iframe {
+    margin-left: 10%;
+    border: 20px solid white;
+}
+
+.slide3 {
+    background: turquoise;
+}
+
+.slide3 h1{
+    margin-left: 36%;
+    font-weight: 500;
+    font-size: larger;
+}
+
+fieldset {margin: 0 auto;
+        width: 60%;
+        border: none;
+        background-color: white;
+}
+
+input{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid gray;
+    width: 39%;
+}
+
+.name,.email{vertical-align: top;}
+
+.subject{ display: block;
+        width: 89%;
+}
+
+textarea{display: block;
+        width: 89%;
+        margin: 10px;
+        padding: 20px;
+        border:2px solid gray;
+        border-radius: 5px ;
+        height: 150px;
+}
+
+button{border-radius: 5px;
+        background: darkolivegreen;
+        color: white;
+        padding: 20px;
+        margin-left: 37%;  
+        font-weight: bold;  
+}
+
+footer{background-color: black;}
+footer iframe{margin-left:10% ;
+                width: 80%;
+}
+footer a{color: white;}
